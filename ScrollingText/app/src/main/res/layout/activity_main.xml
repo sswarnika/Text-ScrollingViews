@@ -18,7 +18,7 @@
         android:textStyle="bold" />
 
     <ScrollView
-        android:layout_width="wrap_content"
+        android:layout_width="500sp"
         android:layout_height="wrap_content"
         android:layout_below="@id/article_heading">
 
@@ -37,8 +37,8 @@
 
             <TextView
                 android:id="@+id/article"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="2554dp"
                 android:autoLink="web"
                 android:lineSpacingExtra="5sp"
                 android:padding="@dimen/padding_regular"
